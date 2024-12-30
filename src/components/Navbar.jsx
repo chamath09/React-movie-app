@@ -40,13 +40,15 @@ const Navbar = () => {
         <Flex justifyContent={"space-between"}>
           <Link to="/">
             <Box
-              fontSize={"2xl"}
+              fontSize={"4xl"}
               fontWeight={"bold"}
-              color={"red"}
-              letterSpacing={"widest"}
+              color={"blue"}
+              letterSpacing={""}
               fontFamily={"mono"}
+              paddingX={"25px"}
+              paddingTop={"10px"}
             >
-              NETFLEX
+             Vibeflix
             </Box>
           </Link>
 
