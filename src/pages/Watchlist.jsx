@@ -35,7 +35,7 @@ const Watchlist = () => {
       </Flex>
       {isLoading && (
         <Flex justify={"center"} mt="10">
-          <Spinner size={"xl"} color="red" />
+          <Spinner size={"xl"} color="blue" />
         </Flex>
       )}
       {!isLoading && watchlist?.length === 0 && (
