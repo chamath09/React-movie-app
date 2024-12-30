@@ -68,7 +68,7 @@ const Navbar = () => {
               <Menu>
                 <MenuButton>
                   <Avatar
-                    bg={"red.500"}
+                    bg={"blue.500"}
                     color={"white"}
                     size={"sm"}
                     name={user?.email}
