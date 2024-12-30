@@ -109,7 +109,7 @@ const Navbar = () => {
                 <DrawerHeader>
                   {user ? (
                     <Flex alignItems="center" gap="2">
-                      <Avatar bg="red.500" size={"sm"} name={user?.email} />
+                      <Avatar bg="blue.500" size={"sm"} name={user?.email} />
                       <Box fontSize={"sm"}>
                         {user?.displayName || user?.email}
                       </Box>
@@ -134,7 +134,7 @@ const Navbar = () => {
                         <Link to="/watchlist">Watchlist</Link>
                         <Button
                           variant={"outline"}
-                          colorScheme="red"
+                          colorScheme="blue"
                           onClick={logout}
                         >
                           Logout
